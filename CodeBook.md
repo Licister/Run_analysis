@@ -32,101 +32,102 @@ The final dataset contains 180 rows, since there are 30 subjects doing 6 activit
 
 The names of the variables are preceded with the column number. The ones beginning with "t" refer to "time" and the ones beginning with "f" refer to "frequency". The ones with ".mean" refer to means and the ones with ".std" refer to standard deviations. The ones ending in ".x", ".y" or ".z" refer to the specified axis (X, Y or Z). As mentioned before, the basic pattern for a variable name is [letter representing time(t) or frequency(f)][feature][.mean or .std][.x, .y or .z if the feature has those alternatives]. For example, for "time", "bodyacc", "mean" and "x", the variable name is "tbodyacc.mean.x". For "frequency", "bodygyromag", "std" with no X, Y or Z, the variable name is "fbodygyromag.std".
 
- 1: "activity": The activity being recorded. The observations can assume the following values:
+**1: "activity":** The activity being recorded. The observations can assume the following values:
  * walking
  * walking.upstairs
  * walking.downstairs
  * sitting
  * standing
  * laying
- 
- 2: "subject": The subject performing the activity.
+
+**2: "subject":** The subject performing the activity.
  * Values go from 1 to 30.
  
 Other variables, grouped by the main feature name:
  
- "bodyacc": body acceleration signals. The variable name can assume the following combinations:
-      *3: "tbodyacc.mean.x"
-      *4: "tbodyacc.mean.y"
-      *5: "tbodyacc.mean.z"
-      *23: "fbodyacc.mean.x"
-      *24: "fbodyacc.mean.y"
-      *25: "fbodyacc.mean.z"
-      *36: "tbodyacc.std.x"
-      *37: "tbodyacc.std.y"
-      *38: "tbodyacc.std.z"
-      *56: "fbodyacc.std.x"
-      *57: "fbodyacc.std.y"
-      *58: "fbodyacc.std.z"
+**"bodyacc":* body acceleration signals. The variable name can assume the following combinations:
+* 3: "tbodyacc.mean.x"
+* 4: "tbodyacc.mean.y"
+* 5: "tbodyacc.mean.z"
+* 23: "fbodyacc.mean.x"
+* 24: "fbodyacc.mean.y"
+* 25: "fbodyacc.mean.z"
+* 36: "tbodyacc.std.x"
+* 37: "tbodyacc.std.y"
+* 38: "tbodyacc.std.z"
+* 56: "fbodyacc.std.x"
+* 57: "fbodyacc.std.y"
+* 58: "fbodyacc.std.z"
 
- "gravityacc": gravity acceleration signals. The variable name can assume the following combinations:
-      *6: "tgravityacc.mean.x"
-      *7: "tgravityacc.mean.y"
-      *8: "tgravityacc.mean.Z"
-      *39: "tgravityacc.std.x"
-      *40: "tgravityacc.std.y"
-      *41: "tgravityacc.std.z"
+
+**"gravityacc":** gravity acceleration signals. The variable name can assume the following combinations:
+* 6: "tgravityacc.mean.x"
+* 7: "tgravityacc.mean.y"
+* 8: "tgravityacc.mean.Z"
+* 39: "tgravityacc.std.x"
+* 40: "tgravityacc.std.y"
+* 41: "tgravityacc.std.z"
  
- "bodyaccjerk": body acceleration jerk signals. The variable name can assume the following combinations:
-      *9: "tbodyaccjerk.mean.x"
-      *10: "tbodyaccjerk.mean.y"
-      *11: "tbodyaccjerk.mean.z"
-      *26: "fbodyaccjerk.mean.x"   
-      *27: "fbodyaccjerk.mean.y"  
-      *28: "fbodyaccjerk.mean.z"
-      *42: "tbodyaccjerk.std.x"   
-      *43: "tbodyaccjerk.std.y"
-      *44: "tbodyaccjerk.std.z"
-      *59: "fbodyaccjerk.std.x"    
-      *60: "fbodyaccjerk.std.y"   
-      *61: "fbodyaccjerk.std.z"
+**"bodyaccjerk":** body acceleration jerk signals. The variable name can assume the following combinations:
+* 9: "tbodyaccjerk.mean.x"
+* 10: "tbodyaccjerk.mean.y"
+* 11: "tbodyaccjerk.mean.z"
+* 26: "fbodyaccjerk.mean.x"   
+* 27: "fbodyaccjerk.mean.y"  
+* 28: "fbodyaccjerk.mean.z"
+* 42: "tbodyaccjerk.std.x"   
+* 43: "tbodyaccjerk.std.y"
+* 44: "tbodyaccjerk.std.z"
+* 59: "fbodyaccjerk.std.x"    
+* 60: "fbodyaccjerk.std.y"   
+* 61: "fbodyaccjerk.std.z"
       
- "bodygyro": readings from the gyroscope. The variable name can assume the following combinations:
-      *12: "tbodygyro.mean.x"
-      *13: "tbodygyro.mean.y"
-      *14: "tbodygyro.mean.z"
-      *29: "fbodygyro.mean.x"
-      *30: "fbodygyro.mean.y"
-      *31: "fbodygyro.mean.z"
-      *45: "tbodygyro.std.x"
-      *46: "tbodygyro.std.y"
-      *47: "tbodygyro.std.z"
-      *62: "fbodygyro.std.x"
-      *63: "fbodygyro.std.y"
-      *64: "fbodygyro.std.z"
+**"bodygyro":** readings from the gyroscope. The variable name can assume the following combinations:
+* 12: "tbodygyro.mean.x"
+* 13: "tbodygyro.mean.y"
+* 14: "tbodygyro.mean.z"
+* 29: "fbodygyro.mean.x"
+* 30: "fbodygyro.mean.y"
+* 31: "fbodygyro.mean.z"
+* 45: "tbodygyro.std.x"
+* 46: "tbodygyro.std.y"
+* 47: "tbodygyro.std.z"
+* 62: "fbodygyro.std.x"
+* 63: "fbodygyro.std.y"
+* 64: "fbodygyro.std.z"
       
- "bodygyrojerk": readings from the gyroscope jerk signals. The variable name can assume the following combinations:
-      *15: "tbodygyrojerk.mean.x"
-      *16: "tbodygyrojerk.mean.y"  
-      *17: "tbodygyrojerk.mean.z"
-      *48: "tbodygyrojerk.std.x"
-      *49: "tbodygyrojerk.std.y"
-      *50: "tbodygyrojerk.std.z"
+**"bodygyrojerk":** readings from the gyroscope jerk signals. The variable name can assume the following combinations:
+* 15: "tbodygyrojerk.mean.x"
+* 16: "tbodygyrojerk.mean.y"  
+* 17: "tbodygyrojerk.mean.z"
+* 48: "tbodygyrojerk.std.x"
+* 49: "tbodygyrojerk.std.y"
+* 50: "tbodygyrojerk.std.z"
       
- "bodyaccmag": body acceleration magnitude. The variable name can assume the following combinations:
-     *18: "tbodyaccmag.mean"
-     *32: "fbodyaccmag.mean"
-     *51: "tbodyaccmag.std"
-     *65: "fbodyaccmag.std"
+**"bodyaccmag":** body acceleration magnitude. The variable name can assume the following combinations:
+* 18: "tbodyaccmag.mean"
+* 32: "fbodyaccmag.mean"
+* 51: "tbodyaccmag.std"
+* 65: "fbodyaccmag.std"
      
- "gravityaccmag": gravity acceleration magnitude. The variable name can assume the following combinations:
-      *19: "tgravityaccmag.mean"
-      *52: "tgravityaccmag.std"
+**"gravityaccmag":** gravity acceleration magnitude. The variable name can assume the following combinations:
+* 19: "tgravityaccmag.mean"
+* 52: "tgravityaccmag.std"
       
- "bodyaccjerkmag": body acceleration jerk signal magnitude. The variable name can assume the following combinations:
-      *20: "tbodyaccjerkmag.mean"
-      *33: "fbodyaccjerkmag.mean"
-      *53: "tbodyaccjerkmag.std"
-      *66: "fbodyaccjerkmag.std"
+**"bodyaccjerkmag":** body acceleration jerk signal magnitude. The variable name can assume the following combinations:
+* 20: "tbodyaccjerkmag.mean"
+* 33: "fbodyaccjerkmag.mean"
+* 53: "tbodyaccjerkmag.std"
+* 66: "fbodyaccjerkmag.std"
       
- "bodygyromag": gyroscope readings magnitude. The variable name can assume the following combinations:
-      *21: "tbodygyromag.mean"
-      *34: "fbodygyromag.mean"
-      *54: "tbodygyromag.std"
-      *67: "fbodygyromag.std"
+**"bodygyromag":** gyroscope readings magnitude. The variable name can assume the following combinations:
+* 21: "tbodygyromag.mean"
+* 34: "fbodygyromag.mean"
+* 54: "tbodygyromag.std"
+* 67: "fbodygyromag.std"
       
- "bodygyrojerkmag": gyroscope jerk signal readings magnitude. The variable name can assume the following combinations:
-      *22: "tbodygyrojerkmag.mean"
-      *35: "fbodygyrojerkmag.mean"
-      *55: "tbodygyrojerkmag.std"
-      *68: "fbodygyrojerkmag.std"
+**"bodygyrojerkmag":** gyroscope jerk signal readings magnitude. The variable name can assume the following combinations:
+* 22: "tbodygyrojerkmag.mean"
+* 35: "fbodygyrojerkmag.mean"
+* 55: "tbodygyrojerkmag.std"
+* 68: "fbodygyrojerkmag.std"
