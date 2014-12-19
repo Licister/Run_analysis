@@ -16,7 +16,7 @@ The table should be a data frame. To convert to a data tbl, which is the origina
  * To open with R, set the working directory to the one containing the "UCI HAR Dataset";
  * Run `source("run_analysis.R")`.
 
-The final dataset is stored with the name "analysis" and is a data tbl. Some useful functions to see more about the data are `select()` and `filter`. 
+The final dataset is stored with the name "analysis" and is a data tbl. Some useful functions to see more about the data are `select()` and `filter()`. 
 If you prefer to use a data frame, the "analysis" data tbl has been converted to a data frame with the name "dataframe".
 
 The dataset "analysis" contains 180 rows, each for a combination of users(30) and activities(6). It contains 68 columns, the first two being "activity" and "subject", and the remaining are the relevant variables.
