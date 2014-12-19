@@ -5,6 +5,7 @@ The analysis creates a readable dataset that includes the average of all the var
 
 ### To open the dataset properly:
  * Open with `read.table("analysis.txt", header = TRUE, sep = " ")`.
+
 The table should be a data frame. To convert to a data tbl, which is the original form of this table:
  * Store the table: for example, `analysis <- read.table("analysis.txt", header=TRUE, sep= " ")`;
  * Convert to data tbl: `analysis <- tbl_df(analysis)`.
