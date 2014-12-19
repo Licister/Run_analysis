@@ -45,7 +45,7 @@ The names of the variables are preceded with the column number. The ones beginni
  
 Other variables, grouped by the main feature name:
  
-**"bodyacc":* body acceleration signals. The variable name can assume the following combinations:
+**"bodyacc":** body acceleration signals. The variable name can assume the following combinations:
 * 3: "tbodyacc.mean.x"
 * 4: "tbodyacc.mean.y"
 * 5: "tbodyacc.mean.z"
