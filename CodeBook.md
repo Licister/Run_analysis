@@ -2,7 +2,7 @@
 
 ##1. Original dataset
 
-There are six activities performed by 30 people wearing a Samsung Galaxy S II on the waist. It captures 3-axial linear acceleration and angular velocity. Features are normalized and bounded within [-1,1]. You can check the "features_info.txt" and "README.txt" files in the original data for more information on how the data was collected.
+There are six activities performed by 30 people wearing a Samsung Galaxy S II on the waist. It captures 3-axial linear acceleration and angular velocity. The original features are normalized and bounded within [-1,1]. You can check the "features_info.txt" and "README.txt" files in the original data for more information on how the data was collected.
 
 ## 2. Raw data
 
@@ -25,7 +25,7 @@ The basic pattern for a variable name is [letter representing time(t) or frequen
 
 The dataset is then converted to a data tbl using the dplyr package. The columns "subject", "activity", and the ones referring to the mean and standard deviation are selected, while excluding the ones about angles and mean frequencies. Afterwards, the dataset is first grouped by the activity name and only then by subject, and the average for each of the other columns is calculated.
 
-The final dataset contains 180 rows, since there are 30 subjects doing 6 activities (30 x 6 = 180). It contains 68 columns: one for the activity name, one for the subject number and one for each variable about a mean or standard deviation.
+The final dataset contains 180 rows, since there are 30 subjects doing 6 activities (30 x 6 = 180). It contains 68 columns: one for the activity name, one for the subject number and one for each variable about a mean or standard deviation. Each of these last variables returns the average for each combination of activity and subject.
 
 
 ## 4. Variables
