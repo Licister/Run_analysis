@@ -49,7 +49,7 @@ There are 68 variables. The names of the variables are preceded with the column 
  
 The remaining variables are grouped here by the main feature name. Their values are the average for a certain activity of all the observations recorded from a certain subject. The values are normalized and bounded within [-1,1] since the original dataset had those values normalized as well. Below you can see the available combinations of the variable name: time or frequency, feature, mean or standard deviation, and axis.
  
-**"bodyacc":** body acceleration signals. The variables are the average of the means/standard deviations of the time/frequency of the body acceleration signals for the X/Y/Z axis for a particular activity and subject.The variable name can assume the following combinations:
+**"bodyacc":** body acceleration signals. The variables are the average of the means/standard deviations of the time/frequency of the body acceleration signals for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
 * 3: **"tbodyacc.mean.x"**
 * 4: **"tbodyacc.mean.y"**
 * 5: **"tbodyacc.mean.z"**
@@ -63,7 +63,7 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 57: **"fbodyacc.std.y"**
 * 58: **"fbodyacc.std.z"**
 
-**"gravityacc":** gravity acceleration signals. The variables are the average of the means/standard deviations of the time/frequency of the gravity acceleration signals for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
+**"gravityacc":** gravity acceleration signals. The variables are the average of the means/standard deviations of the time of the gravity acceleration signals for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
 * 6: **"tgravityacc.mean.x"**
 * 7: **"tgravityacc.mean.y"**
 * 8: **"tgravityacc.mean.Z"**
@@ -71,7 +71,7 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 40: **"tgravityacc.std.y"**
 * 41: **"tgravityacc.std.z"**
  
-**"bodyaccjerk":** body acceleration jerk signals. The variable name can assume the following combinations:
+**"bodyaccjerk":** body acceleration jerk signals. The variables are the average of the means/standard deviations of the time/frequency of the body acceleration acceleration jerk signals for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
 * 9: **"tbodyaccjerk.mean.x"**
 * 10: **"tbodyaccjerk.mean.y"**
 * 11: **"tbodyaccjerk.mean.z"**
@@ -85,7 +85,7 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 60: **"fbodyaccjerk.std.y"**
 * 61: **"fbodyaccjerk.std.z"**
       
-**"bodygyro":** readings from the gyroscope. The variable name can assume the following combinations:
+**"bodygyro":** readings from the gyroscope. The variables are the average of the means/standard deviations of the time/frequency of the readings from the gyroscope for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
 * 12: **"tbodygyro.mean.x"**
 * 13: **"tbodygyro.mean.y"**
 * 14: **"tbodygyro.mean.z"**
@@ -99,7 +99,7 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 63: **"fbodygyro.std.y"**
 * 64: **"fbodygyro.std.z"**
       
-**"bodygyrojerk":** readings from the gyroscope jerk signals. The variable name can assume the following combinations:
+**"bodygyrojerk":** readings from the gyroscope jerk signals. The variables are the average of the means/standard deviations of the time of the readings from the gyroscope jerk signals for the X/Y/Z axis for a particular activity and subject. The variable name can assume the following combinations:
 * 15: **"tbodygyrojerk.mean.x"**
 * 16: **"tbodygyrojerk.mean.y"**
 * 17: **"tbodygyrojerk.mean.z"**
@@ -107,29 +107,29 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 49: **"tbodygyrojerk.std.y"**
 * 50: **"tbodygyrojerk.std.z"**
       
-**"bodyaccmag":** body acceleration magnitude. The variable name can assume the following combinations:
+**"bodyaccmag":** body acceleration magnitude. The variables are the average of the means/standard deviations of the time/frequency of the body acceleration magnitude for a particular activity and subject. The variable name can assume the following combinations:
 * 18: **"tbodyaccmag.mean"**
 * 32: **"fbodyaccmag.mean"**
 * 51: **"tbodyaccmag.std"**
 * 65: **"fbodyaccmag.std"**
      
-**"gravityaccmag":** gravity acceleration magnitude. The variable name can assume the following combinations:
+**"gravityaccmag":** gravity acceleration magnitude. The variables are the average of the means/standard deviations of the time of the gravity acceleration magnitude for a particular activity and subject. The variable name can assume the following combinations:
 * 19: **"tgravityaccmag.mean"**
 * 52: **"tgravityaccmag.std"**
       
-**"bodyaccjerkmag":** body acceleration jerk signal magnitude. The variable name can assume the following combinations:
+**"bodyaccjerkmag":** body acceleration jerk signal magnitude. The variables are the average of the means/standard deviations of the time/frequency of the body acceleration jerk signals' magnitude for a particular activity and subject. The variable name can assume the following combinations:
 * 20: **"tbodyaccjerkmag.mean"**
 * 33: **"fbodyaccjerkmag.mean"**
 * 53: **"tbodyaccjerkmag.std"**
 * 66: **"fbodyaccjerkmag.std"**
       
-**"bodygyromag":** gyroscope readings magnitude. The variable name can assume the following combinations:
+**"bodygyromag":** gyroscope readings magnitude. The variables are the average of the means/standard deviations of the time/frequency of the gyroscope readings' magnitude for a particular activity and subject. The variable name can assume the following combinations:
 * 21: **"tbodygyromag.mean"**
 * 34: **"fbodygyromag.mean"**
 * 54: **"tbodygyromag.std"**
 * 67: **"fbodygyromag.std"**
       
-**"bodygyrojerkmag":** gyroscope jerk signal readings magnitude. The variable name can assume the following combinations:
+**"bodygyrojerkmag":** gyroscope jerk signal readings magnitude. The variables are the average of the means/standard deviations of the time/frequency of the gyroscope jerk signal readings' magnitude for a particular activity and subject. The variable name can assume the following combinations:
 * 22: **"tbodygyrojerkmag.mean"**
 * 35: **"fbodygyrojerkmag.mean"**
 * 55: **"tbodygyrojerkmag.std"**
