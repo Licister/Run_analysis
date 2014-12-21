@@ -1,7 +1,8 @@
 This code runs an analysis on the "Human Activity Recognition Using Smartphones Dataset", version 1.0. To check the original dataset, download the file at [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). [1]
 
 
-The analysis creates a readable dataset that includes the average of all the variables about means or standard deviations collected in the original study.
+The original dataset has information from several readings from the subjects wearing a smartphone, Samsung Galaxy S II, on the waist, while doing certain activities. The information obtained was 3-axial linear acceleration and 3-axial angular velocity, obtained using the smartphone's embedded accelerometer and gyroscope. The original data has the means, standard deviations and other measurements of the collected information.
+The analysis organises the original data and calculates the averages of the means and standard deviations of particular features for a particular combination of activity and subject, presenting a readable dataset that shows these values grouped by activity and subject.
 
 ### To open the dataset properly:
  * Open with `read.table("analysis.txt", header = TRUE, sep = " ")`.
