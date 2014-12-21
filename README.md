@@ -1,7 +1,7 @@
 This code runs an analysis on the "Human Activity Recognition Using Smartphones Dataset", version 1.0. To check the original dataset, download the file at [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). [1]
 
 
-The analysis creates a readable dataset that includes the average of all the variables about means or standard deviations.
+The analysis creates a readable dataset that includes the average of all the variables about means or standard deviations collected in the original study.
 
 ### To open the dataset properly:
  * Open with `read.table("analysis.txt", header = TRUE, sep = " ")`.
@@ -29,6 +29,8 @@ The data tbl is then reduced to contain only the variables "activity", "subject"
 The data tbl is grouped by "activity" and "subject", and the average of the remaining variables is calculated taking into account these two groups.
 
 The dataset is first grouped by the activity name and only then by subject because the activity is the main variable: the activity is being recorded, the subject does the activity being recorded.
+
+
 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
