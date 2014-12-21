@@ -1,3 +1,4 @@
+#change directory to the UCI HAR Dataset folder
 setwd("./UCI HAR Dataset")
 
 #load required library
