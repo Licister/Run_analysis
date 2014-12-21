@@ -28,7 +28,7 @@ After this, the sets are bound together using `cbind`. All the illegal variable 
 The data tbl is then reduced to contain only the variables "activity", "subject", and the ones related to mean and standard deviation, excluding angles and mean frequencies. 
 The data tbl is grouped by "activity" and "subject", and the average of the remaining variables is calculated taking into account these two groups.
 
->The dataset is first grouped by the activity name and only then by subject because the activity is the main variable: the activity is being recorded, the subject does the activity being recorded.
+The dataset is first grouped by the activity name and only then by subject because the activity is the main variable: the activity is being recorded, the subject does the activity being recorded.
 
 
 ---
