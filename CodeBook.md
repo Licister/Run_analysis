@@ -67,26 +67,26 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 6: **"tgravityacc.mean.x"**
 * 7: **"tgravityacc.mean.y"**
 * 8: **"tgravityacc.mean.Z"**
-* 39: **"tgravityacc.std.x"** : average of the standard deviations of the time of the body acceleration signals for the X axis for the respective activity and subject;
-* 40: **"tgravityacc.std.y"** : average of the standard deviations of the time of the body acceleration signals for the Y axis for the respective activity and subject;
-* 41: **"tgravityacc.std.z"** : average of the standard deviations of the time of the body acceleration signals for the Z axis for the respective activity and subject;
+* 39: **"tgravityacc.std.x"**
+* 40: **"tgravityacc.std.y"**
+* 41: **"tgravityacc.std.z"**
  
 **"bodyaccjerk":** body acceleration jerk signals. The variable name can assume the following combinations:
-* 9: **"tbodyaccjerk.mean.x"** : average of the means of the time of the body acceleration jerk signals for the X axis for the respective activity and subject;
-* 10: **"tbodyaccjerk.mean.y"** : average of the means of the time of the body acceleration jerk signals for the Y axis for the respective activity and subject;
-* 11: **"tbodyaccjerk.mean.z"** : average of the means of the time of the body acceleration jerk signals for the Y axis for the respective activity and subject;
-* 26: **"fbodyaccjerk.mean.x"** : average of the means of the frequency of the body acceleration jerk signals for the X axis for the respective activity and subject;
-* 27: **"fbodyaccjerk.mean.y"** : average of the means of the frequency of the body acceleration jerk signals for the Y axis for the respective activity and subject;
-* 28: **"fbodyaccjerk.mean.z"** : average of the means of the frequency of the body acceleration jerk signals for the Z axis for the respective activity and subject;
-* 42: **"tbodyaccjerk.std.x"** : average of the standard deviations of the time of the body acceleration jerk signals for the X axis for the respective activity and subject;
-* 43: **"tbodyaccjerk.std.y"** : average of the standard deviations of the time of the body acceleration jerk signals for the Y axis for the respective activity and subject;
-* 44: **"tbodyaccjerk.std.z"** : average of the standard deviations of the time of the body acceleration jerk signals for the Z axis for the respective activity and subject;
-* 59: **"fbodyaccjerk.std.x"** : average of the standard deviations of the frequency of the body acceleration signals for the X axis for the respective activity and subject;   
-* 60: **"fbodyaccjerk.std.y"** : average of the standard deviations of the frequency of the body acceleration signals for the Y axis for the respective activity and subject;    
-* 61: **"fbodyaccjerk.std.z"**: average of the standard deviations of the frequency of the body acceleration signals for the Z axis for the respective activity and subject;   
+* 9: **"tbodyaccjerk.mean.x"**
+* 10: **"tbodyaccjerk.mean.y"**
+* 11: **"tbodyaccjerk.mean.z"**
+* 26: **"fbodyaccjerk.mean.x"**
+* 27: **"fbodyaccjerk.mean.y"**
+* 28: **"fbodyaccjerk.mean.z"**
+* 42: **"tbodyaccjerk.std.x"**
+* 43: **"tbodyaccjerk.std.y"**
+* 44: **"tbodyaccjerk.std.z"**
+* 59: **"fbodyaccjerk.std.x"**  
+* 60: **"fbodyaccjerk.std.y"**
+* 61: **"fbodyaccjerk.std.z"**
       
 **"bodygyro":** readings from the gyroscope. The variable name can assume the following combinations:
-* 12: **"tbodygyro.mean.x"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 12: **"tbodygyro.mean.x"**
 * 13: **"tbodygyro.mean.y"**
 * 14: **"tbodygyro.mean.z"**
 * 29: **"fbodygyro.mean.x"**
@@ -100,7 +100,7 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 64: **"fbodygyro.std.z"**
       
 **"bodygyrojerk":** readings from the gyroscope jerk signals. The variable name can assume the following combinations:
-* 15: **"tbodygyrojerk.mean.x"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 15: **"tbodygyrojerk.mean.x"**
 * 16: **"tbodygyrojerk.mean.y"**
 * 17: **"tbodygyrojerk.mean.z"**
 * 48: **"tbodygyrojerk.std.x"**
@@ -108,29 +108,29 @@ The remaining variables are grouped here by the main feature name. Their values 
 * 50: **"tbodygyrojerk.std.z"**
       
 **"bodyaccmag":** body acceleration magnitude. The variable name can assume the following combinations:
-* 18: **"tbodyaccmag.mean"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 18: **"tbodyaccmag.mean"**
 * 32: **"fbodyaccmag.mean"**
 * 51: **"tbodyaccmag.std"**
 * 65: **"fbodyaccmag.std"**
      
 **"gravityaccmag":** gravity acceleration magnitude. The variable name can assume the following combinations:
-* 19: **"tgravityaccmag.mean"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 19: **"tgravityaccmag.mean"**
 * 52: **"tgravityaccmag.std"**
       
 **"bodyaccjerkmag":** body acceleration jerk signal magnitude. The variable name can assume the following combinations:
-* 20: **"tbodyaccjerkmag.mean"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 20: **"tbodyaccjerkmag.mean"**
 * 33: **"fbodyaccjerkmag.mean"**
 * 53: **"tbodyaccjerkmag.std"**
 * 66: **"fbodyaccjerkmag.std"**
       
 **"bodygyromag":** gyroscope readings magnitude. The variable name can assume the following combinations:
-* 21: **"tbodygyromag.mean"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 21: **"tbodygyromag.mean"**
 * 34: **"fbodygyromag.mean"**
 * 54: **"tbodygyromag.std"**
 * 67: **"fbodygyromag.std"**
       
 **"bodygyrojerkmag":** gyroscope jerk signal readings magnitude. The variable name can assume the following combinations:
-* 22: **"tbodygyrojerkmag.mean"** : average of the means of the time of the body acceleration signals for the X axis for the respective activity and subject;
+* 22: **"tbodygyrojerkmag.mean"**
 * 35: **"fbodygyrojerkmag.mean"**
 * 55: **"tbodygyrojerkmag.std"**
 * 68: **"fbodygyrojerkmag.std"**
